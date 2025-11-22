@@ -83,8 +83,3 @@ openocd -f interface/stlink.cfg -f target/stm32f1x.cfg -c "program build/stm32_b
 ## 🐛 Troubleshooting
 * **Clone Chips:** If OpenOCD reports an "UNEXPECTED idcode" (e.g., `0x2ba01477`), it indicates a CKS32/CS32 clone chip. The flashing command typically works despite the warning.
 * **No Blink:** Verify `BOOT0` is set to 0 and press the physical Reset button after flashing.
-
----
-*Author: Golam Rahman | Master of Engineering Studies, University of Auckland*
-    ├── main.c           # Application logic (GPIO Configuration)
-    └── startup.c        # Vector Table, Reset Handler, & Variable Initialization
