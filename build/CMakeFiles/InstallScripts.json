@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/Projects/Gemini01/stm32_bare_metal/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
