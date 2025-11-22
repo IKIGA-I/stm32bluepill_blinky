@@ -38,6 +38,7 @@ stm32_bare_metal/
 ├── linker/
 │   └── linker.ld        # Memory map (Flash/RAM definition) & Section placement
 
+```
 📝 Key Technical Implementation
 1. The Build System (CMake)
 CMake is configured to bypass the default host OS checks to enable cross-compilation for a generic embedded target.
